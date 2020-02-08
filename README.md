@@ -147,10 +147,10 @@ URL: http://localhost:3000/invoke
             "value": "ABC"
         }
     }
-```
+    ```
 
 - __Query API__
-URL: http://localhost:3000/invoke
+URL: http://localhost:3000/query
 
     ```javascript
     {
@@ -161,10 +161,10 @@ URL: http://localhost:3000/invoke
     }
     ```
 
-- __Sample Response:__
+- __Sample Response__
 
-  ``` javascript
-  {
+    ```javascript
+    {
         "statusCode": 200,
         "message": "Invoke Successful!", "data":
         "61a9fc1728617da8bcc8a0449fe9ffebc5e25c912bafcf36b0bc100b6cffea8b", "error": {}
@@ -172,9 +172,9 @@ URL: http://localhost:3000/invoke
     ```
 
 
-- __Sample Error Response:__
+- __Sample Error__
 
-  ``` javascript
+    ```javascript
     {
         "code": 500,
         "timestamp": "2020-1-28",
