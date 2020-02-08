@@ -8,7 +8,7 @@ Please feel free to enhance or let me know the features that could be added.
 ## Features of the Client SDK!
 The Client SDK is written with Typescript offered by Nest.js which makes it easy to plugin lots of predefined functionalites.
 Like the ones mentioned Below.
-For more details about [Nest.js](https://nestjs.com/) [![Nest.JS](https://user-images.githubusercontent.com/13108166/32161516-25ee8a3c-bd56-11e7-9d49-76faed577e1a.png)]
+For more details about [Nest.js](https://nestjs.com/)
 - Boiler Plate which lets through the requests directly to chaincode, without ever having to make any changes in Client SDK
 - Abstration of the Fabric-client logics from the APIs for better code readability. Hiding complicated Fabric codes from the user.
 - Standardized Request, Response & Error Formats (Based on the Cloud SDK implemtations like oracle Blockchain APIs , easy to plugin to any app just with API.)
