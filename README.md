@@ -5,10 +5,10 @@ An elegant opensource boilerplate framework for Hyperledger Fabric NODE Client. 
 Read the features list below.
 Please feel free to enhance or let me know the features that could be added.
 
-## Features of the Client SDK
+## Features of the Client SDK!
 The Client SDK is written with Typescript offered by Nest.js which makes it easy to plugin lots of predefined functionalites.
 Like the ones mentioned Below.
-For more details about [Nest.js](https://nestjs.com/)
+For more details about [Nest.js](https://nestjs.com/) (https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg)
 - Boiler Plate which lets through the requests directly to chaincode, without ever having to make any changes in Client SDK
 - Abstration of the Fabric-client logics from the APIs for better code readability. Hiding complicated Fabric codes from the user.
 - Standardized Request, Response & Error Formats (Based on the Cloud SDK implemtations like oracle Blockchain APIs , easy to plugin to any app just with API.)
@@ -91,9 +91,9 @@ __2. Change the `<sk_file_name>` to the proper admin certificate of the organiza
 
 The client chooses the config folder based on the NODE_ENV variable set on the running host
 
-`
+```bash
 export NODE_ENV="LOCAL"
-`
+```
 The possible values for the env variable is `LOCAL`,`DEV`,`PROD` all case sensitive.
 
 ###### Running the App
