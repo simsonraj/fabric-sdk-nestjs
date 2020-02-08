@@ -1,5 +1,6 @@
 # fabric-sdk-nestjs
-An elegant boilerplate framework for Hyperledger Fabric NODE Client. The Client is written in typescript on top of Nest.js giving lots of plugin functionalities. Read the features list below
+An elegant opensource boilerplate framework for Hyperledger Fabric NODE Client. The Client is written in typescript on top of Nest.js giving lots of plugin functionalities. Read the features list below.
+Please feel free to enhance or let me know the features that could be added.
 
 ## Features of the Client SDK
 The Client SDK is written with Typescript offered by Nest.js which makes it easy to plugin lots of predefined functionalites.
