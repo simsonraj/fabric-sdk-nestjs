@@ -1,0 +1,38 @@
+{
+   "name": "basic",
+   "x-type": "hlfv1",
+   "description": "Description for the network",
+   "version": "1.0",
+   "host": "localhost",
+   "port": "3000",
+   "contractName":"chaincodename",
+   "access":{
+      "username":"admin",
+      "password":"adminpw"
+   },
+   "client": {
+      "organization": "Org1MSP",
+      "credentialStore": {
+        "path": "/Users/hlfdev/bc_files/fabric-client",
+        "cryptoStore": {
+            "path": "/Users/user/hlfdev/fabric-client"
+         }
+      }
+   },
+   "admins": [
+      {
+        "username": "admin",
+        "secret": "adminpw"
+      }
+   ],
+   "logs": {
+        "path": "/Users/hlfdev/bc_files/logs"
+   },
+    "swagger":{
+        "title": "API",
+        "description": "The API endpoints for Chaincode",
+        "version": "1.0",
+        "tag": "API endpoints",
+        "url": "api-docs"
+    }
+}
