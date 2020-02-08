@@ -20,7 +20,7 @@ For more details about [Nest.js](https://nestjs.com/)
 - Linted
 - Basic Vulnerabilities fixes and security using helmet
 - Config Folders for multiple environments (DEV || LOCAL || PROD)
-- Message queue (For MVCC error fix, with Redis Queue) & Caching implemented (With Redis & Bull), but stripped out for simplicity. (Please send a request if you need it)
+- Message queue (To prevent MVCC key collisions error, with Redis Queue) & Caching implemented (With Redis & Bull), but stripped out for simplicity. (Please send a request if you need it)
 
 ## How to setup the Boiler plate with Hyperledger Fabric basic-network
 
