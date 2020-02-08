@@ -54,7 +54,7 @@ __1. Carefully Change the JSON fields as per the needs__
    "client": {
       "organization": "Org1MSP",
       "credentialStore": {
-        "path": "/Users/hlfdev/bc_files/fabric-client", //folder to store the credential certifcates
+        "path": "/Users/hlfdev/bc_files/fabric-client", //path to store the credential certifcates
         "cryptoStore": {
             "path": "/Users/user/hlfdev/fabric-client"
          }
@@ -67,7 +67,7 @@ __1. Carefully Change the JSON fields as per the needs__
       }
    ],
    "logs": { 
-        "path": "/Users/hlfdev/bc_files/logs"
+        "path": "/Users/hlfdev/bc_files/logs" //path to store logs
    },
     "swagger":{
         "title": "API",
@@ -79,7 +79,7 @@ __1. Carefully Change the JSON fields as per the needs__
 }
 ```
 
-__2. Change the `<sk_file_name>` to the proper admin certificate of the organisation under network.yaml__
+__2. Change the `<sk_file_name>` to the proper admin certificate of the organisation under network.yaml && more importantly the paths of all the certificates__ 
 
 ```yaml
  adminPrivateKey:
