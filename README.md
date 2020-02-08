@@ -6,12 +6,12 @@ Read the features list below.
 Please feel free to enhance or let me know the features that could be added.
 
 ## Features of the Client SDK!
-The Client SDK is written with Typescript offered by Nest.js which makes it easy to plugin lots of predefined functionalites.
+The Client SDK is written with Typescript offered by Nest.js which makes it easy to plugin lots of predefined functionalities.
 Like the ones mentioned Below.
 For more details about [Nest.js](https://nestjs.com/)
 - Boiler Plate which lets through the requests directly to chaincode, without ever having to make any changes in Client SDK
-- Abstration of the Fabric-client logics from the APIs for better code readability. Hiding complicated Fabric codes from the user.
-- Standardized Request, Response & Error Formats (Based on the Cloud SDK implemtations like oracle Blockchain APIs , easy to plugin to any app just with API.)
+- Abstraction of the Fabric-client logics from the APIs for better code readability. Hiding complicated Fabric codes from the user.
+- Standardized Request, Response & Error Formats (Based on the Cloud SDK implementations like oracle Blockchain APIs , easy to plugin to any app just with API.)
 - Basic Authentication implemented
 - Logger Enabled
 - Changes needed only on configuration files
@@ -24,7 +24,7 @@ For more details about [Nest.js](https://nestjs.com/)
 
 ## How to setup the Boiler plate with Hyperledger Fabric basic-network
 
-Check out the Fabric-samples from the hyperledger repository and checkout appropritate Tags & then ./start.sh to start the Basic Network which will create the crypto-config folder
+Check out the Fabric-samples from the hyperledger repository and checkout appropriate Tags & then ./start.sh to start the Basic Network which will create the crypto-config folder
 
 ###### Copy the certificates
 
@@ -79,7 +79,7 @@ __1. Carefully Change the JSON fields as per the needs__
 }
 ```
 
-__2. Change the `<sk_file_name>` to the proper admin certificate of the organization under network.yaml__
+__2. Change the `<sk_file_name>` to the proper admin certificate of the organisation under network.yaml__
 
 ```yaml
  adminPrivateKey:
@@ -109,7 +109,7 @@ The Client requires Node 8.9 - 8.xx version as per the Hyperledger requirement
 go to http://localhost:3000/api-docs on your browser to access the swagger documentation
 
 - __After running the app, the first step is to run the enrollAdmin API to further use other URLS__
-- Unlock the APIs in the swagger with Authorize button on the top right corner
+-  Unlock the APIs in the swagger with Authorise button on the top right corner
  and enter 
  __
  username : admin
